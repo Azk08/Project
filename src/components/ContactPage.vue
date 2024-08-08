@@ -3,6 +3,7 @@
         <span class="neon"></span>
         <div class="Picture">
             <img src="./../assets/contoh produk.png" alt="Product Sample">
+            <img src="./../assets/Produk.png" alt="product sample">
         </div>
         <div class="text">
             <h1>Contact Us</h1>
