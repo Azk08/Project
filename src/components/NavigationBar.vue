@@ -36,7 +36,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -60,5 +60,17 @@ img {
 
 svg {
     width: 10%;
+}
+
+@media screen and (max-width : 780px) {
+    nav{
+        padding: 10px;
+    }
+    svg{
+        width: 50%;
+    }
+    img{
+        width: 50%;
+    }
 }
 </style>

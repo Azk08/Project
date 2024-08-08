@@ -69,10 +69,10 @@ a svg {
 .neon {
     /* background-color: white; */
     position: absolute;
-    width: 300px;
-    height: 300px;
-    right: 17%;
-    top: 25.5%;
+    width: 25%;
+    height: 50%;
+    right: 16.5%;
+    top: 27%;
     border-radius: 50%;
     border: white solid 5px;
     box-shadow: 0 0 20px white;
@@ -112,6 +112,9 @@ a svg {
         font-size: 10px;
     }
     .right , .left , .neon{
+        display: none;
+    }
+    a svg{
         display: none;
     }
 }

@@ -6,16 +6,29 @@
 </template>
 <script>
 export default {
-    
+
 }
 </script>
 <style scoped>
-footer{
+footer {
     text-align: center;
     padding: 100px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 780px) {
+    footer{
+        padding: 10px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+    }
 }
 </style>
