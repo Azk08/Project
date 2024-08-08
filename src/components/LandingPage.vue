@@ -102,20 +102,33 @@ a svg {
 
 @media screen and (max-width:780px) {
     header{
-        padding: 10px;
+        padding: 50px;
         flex-direction: column-reverse;
     }
     .text h1{
         font-size: 20px;
+        backdrop-filter: blur(5px);
     }
     .text p{
         font-size: 10px;
+        backdrop-filter: blur(5px);
     }
     .right , .left , .neon{
         display: none;
     }
     a svg{
         display: none;
+    }
+    .gambar img{
+        position: absolute;
+        right: 1%;
+        z-index: 0;
+        width: 100%;
+    }
+    .text{
+        z-index: 1;
+        margin-top: 100px;
+        
     }
 }
 </style>

@@ -67,10 +67,10 @@ svg {
         padding: 10px;
     }
     svg{
-        width: 50%;
+        width: 30px;
     }
     img{
-        width: 50%;
+        width: 90px;
     }
 }
 </style>

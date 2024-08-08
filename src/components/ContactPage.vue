@@ -130,15 +130,29 @@ svg {
     }
     .text p {
         font-size : 10px;
+        text-shadow: 0 0 10px white;
+        backdrop-filter: blur(2px);
     }
     .text h1{
         font-size: 15px;
+        text-shadow: 0 0 10px white;
+        backdrop-filter: blur(2px);
     }
     .neon{
         display:none;
     }
     a svg{
-        width: 10px;
+        width: 35px;
+    }
+    .text{
+        z-index: 1;
+    }
+    .Picture img{
+        position: absolute;
+        z-index: 0;
+        top: 100%;
+        left: 10px;
+        width: 60%;
     }
 }
 </style>
