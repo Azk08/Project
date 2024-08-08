@@ -1,5 +1,5 @@
 <template>
-    <main class="about">
+    <main class="about" id="about">
         <div class="gambar">
             <img src="./../assets/logo.png" alt="">
         </div>

@@ -1,16 +1,21 @@
 <template>
-    <main class="Contact">
+    <main class="Contact" id="contact">
         <span class="neon"></span>
         <div class="Picture">
-            <img src="./../assets/contoh produk.png" alt="Product Sample">
-            <img src="./../assets/Produk.png" alt="product sample">
+            <!-- <Swiper>
+                <swiper-slide>
+                    <img src="./../assets/contoh produk.png" alt="Product Sample">
+                    <img src="./../assets/Produk.png" alt="product sample">
+                </swiper-slide>
+            </Swiper> -->
+            <img src="./../assets/contoh produk.png" alt="">
         </div>
         <div class="text">
             <h1>Contact Us</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, similique eligendi. Blanditiis quis
                 tempore hic asperiores accusamus neque, recusandae reiciendis!</p>
             <div class="link">
-                <a href="">
+                <a href="https://wa.me/yourphonenumber">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
@@ -18,7 +23,7 @@
                         </path>
                     </svg>
                 </a>
-                <a href="">
+                <a href="https://www.tiktok.com/@yourusername">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
@@ -26,7 +31,7 @@
                         </path>
                     </svg>
                 </a>
-                <a href="">
+                <a href="https://shopee.com/yourstore">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
@@ -34,7 +39,7 @@
                         </path>
                     </svg>
                 </a>
-                <a href="">
+                <a href="https://www.tiktok.com/@yourusername">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
@@ -47,8 +52,33 @@
     </main>
 </template>
 <script>
-export default {
+// import Swiper from 'swiper';
 
+export default {
+    // // Import Swiper Vue.js components
+    // import { Swiper, SwiperSlide } from 'swiper/vue';
+
+    // // Import Swiper styles
+    // import 'swiper/css';
+
+    // export default {
+    //     components: {
+    //         Swiper,
+    //         SwiperSlide,
+    //     },
+    //     setup() {
+    //         const onSwiper = (swiper) => {
+    //             console.log(swiper);
+    //         };
+    //         const onSlideChange = () => {
+    //             console.log('slide change');
+    //         };
+    //         return {
+    //             onSwiper,
+    //             onSlideChange,
+    //         };
+    //     },
+    // };
 }
 </script>
 <style scoped>
@@ -84,7 +114,7 @@ svg {
     align-items: center;
 }
 
-.neon{
+.neon {
     border-radius: 50%;
     width: 350px;
     height: 350px;
@@ -93,5 +123,4 @@ svg {
     box-shadow: 0 0 50px white;
     left: 14.5%;
 }
-
 </style>
