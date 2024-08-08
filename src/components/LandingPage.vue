@@ -56,13 +56,13 @@ header {
 }
 
 .gambar img {
-    width: 89%;
+    width: 100%;
 }
 
 a svg {
     position: absolute;
     width: 2%;
-    bottom: 100px;
+    bottom: 1%;
     right: 50%;
 }
 
@@ -98,5 +98,21 @@ a svg {
     bottom: 100px;
     border-radius: 50%;
     box-shadow: 0 0 20px white;
+}
+
+@media screen and (max-width:780px) {
+    header{
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 10px;
+    }
+    .right , .left , .neon{
+        display: none;
+    }
 }
 </style>

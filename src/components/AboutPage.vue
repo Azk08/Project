@@ -31,7 +31,24 @@ export default {
     justify-content: space-around;
     padding: 100px;
     /* margin-top: ; */
+
+    
 }
+
+@media screen and (max-width:780px) {
+    .about{
+        padding: 10px;
+        /* flex-direction: column; */
+        flex-direction: column;
+    }
+    .text h1 {
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 10px;
+    }
+}
+
 
 .text {
     width: 50%;
@@ -58,5 +75,5 @@ export default {
 /* .mark p {
     color: gray;
     opacity: 10;
-} */
+} */ 
 </style>

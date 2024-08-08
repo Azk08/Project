@@ -123,4 +123,22 @@ svg {
     box-shadow: 0 0 50px white;
     left: 14.5%;
 }
+@media screen and (max-width:780px) {
+    .Contact{
+        flex-direction: column;
+        padding : 10px;
+    }
+    .text p {
+        font-size : 10px;
+    }
+    .text h1{
+        font-size: 15px;
+    }
+    .neon{
+        display:none;
+    }
+    a svg{
+        width: 10px;
+    }
+}
 </style>
