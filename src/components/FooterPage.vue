@@ -23,6 +23,7 @@ a {
 @media screen and (max-width: 780px) {
     footer{
         padding: 10px;
+        margin-top: 100px;
     }
     h1{
         font-size: 15px;

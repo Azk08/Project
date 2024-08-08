@@ -40,12 +40,26 @@ export default {
         padding: 10px;
         /* flex-direction: column; */
         flex-direction: column;
+        margin-top: 100px;
     }
     .text h1 {
         font-size: 15px;
+        text-align: center;
+        text-shadow: 0 0 15px white;
+        backdrop-filter: blur(2px);
+        border-radius: 50%;
     }
     .text p{
         font-size: 10px;
+        backdrop-filter: blur(2px);
+        text-shadow: 0 0 15px white;
+    }
+    .text{
+        z-index: 1;
+        position: absolute;
+    }
+    .gambar img{
+        z-index: 0;
     }
 }
 
@@ -56,7 +70,7 @@ export default {
 }
 
 .gambar {
-    width: 40%;
+    width: 50%;
 }
 
 

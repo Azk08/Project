@@ -121,9 +121,10 @@ a svg {
     }
     .gambar img{
         position: absolute;
-        right: 1%;
+        right: 5%;
         z-index: 0;
-        width: 100%;
+        width: 90%;
+        bottom: 20%;
     }
     .text{
         z-index: 1;

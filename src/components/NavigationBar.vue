@@ -65,6 +65,7 @@ svg {
 @media screen and (max-width : 780px) {
     nav{
         padding: 10px;
+        z-index: 100;
     }
     svg{
         width: 30px;

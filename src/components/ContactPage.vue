@@ -127,6 +127,7 @@ svg {
     .Contact{
         flex-direction: column;
         padding : 10px;
+        margin-top: 100px;
     }
     .text p {
         font-size : 10px;
@@ -150,7 +151,7 @@ svg {
     .Picture img{
         position: absolute;
         z-index: 0;
-        top: 100%;
+        top: 114%;
         left: 10px;
         width: 60%;
     }
