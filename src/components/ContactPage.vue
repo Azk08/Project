@@ -15,7 +15,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, similique eligendi. Blanditiis quis
                 tempore hic asperiores accusamus neque, recusandae reiciendis!</p>
             <div class="link">
-                <a href="https://wa.me/yourphonenumber">
+                <a href="https://wa.me/6281319420292" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
@@ -23,7 +23,7 @@
                         </path>
                     </svg>
                 </a>
-                <a href="https://www.tiktok.com/@yourusername">
+                <a href="https://www.instagram.com/casingplass" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
@@ -31,7 +31,7 @@
                         </path>
                     </svg>
                 </a>
-                <a href="https://shopee.com/yourstore">
+                <a href="https://shopee.com/yourstore" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
@@ -39,7 +39,7 @@
                         </path>
                     </svg>
                 </a>
-                <a href="https://www.tiktok.com/@yourusername">
+                <a href="https://www.tiktok.com/@caseplass" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 50 50">
                         <path
