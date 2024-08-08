@@ -13,7 +13,7 @@
                 blanditiis
                 voluptatum architecto dolores hic, totam quas eveniet?</p>
         </div>
-        <span class="lightbar"></span>
+        <!-- <span class="lightbar"></span> -->
         <!-- <p class="mark">&copy;AZK08</p> -->
     </main>
 </template>
@@ -26,30 +26,37 @@ export default {
 .about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
     align-items: center;
+    justify-content: space-around;
     padding: 100px;
-    margin-top: 110px;
+    /* margin-top: ; */
 }
 
 .text {
     width: 50%;
+    text-align: justify;
 }
 
 .gambar {
-    width: 50%;
+    width: 40%;
 }
 
-.lightbar {
+
+.gambar img{
+    width: 100%;
+}
+
+/* .lightbar {
     height: 1px;
     width: 100%;
     background-color: white;
     border: 1px solid white;
     box-shadow: 0 0 50px white;
-}
+} */
 
-.mark p {
+/* .mark p {
     color: gray;
     opacity: 10;
-}
+} */
 </style>

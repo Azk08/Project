@@ -56,7 +56,7 @@ header {
 }
 
 .gambar img {
-    width: 70%;
+    width: 89%;
 }
 
 a svg {
@@ -69,10 +69,10 @@ a svg {
 .neon {
     /* background-color: white; */
     position: absolute;
-    width: 400px;
-    height: 400px;
-    right: 330px;
-    top: 189px;
+    width: 300px;
+    height: 300px;
+    right: 17%;
+    top: 25.5%;
     border-radius: 50%;
     border: white solid 5px;
     box-shadow: 0 0 20px white;
@@ -88,11 +88,12 @@ a svg {
     border-radius: 50%;
     box-shadow: 0 0 20px gray;
 }
-.right{
+
+.right {
     background-color: white;
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     right: 10%;
     bottom: 100px;
     border-radius: 50%;
