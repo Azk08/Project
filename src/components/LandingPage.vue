@@ -2,10 +2,10 @@
     <header id="home">
         <div class="text">
             <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, similique?</p>
+            <p>"**Lindungi gadget Anda dengan case plastik stylish dan tahan lama!** Pilihan warna menarik, ringan, dan harga terjangkau. Pesan sekarang untuk perlindungan maksimal!"</p>
         </div>
         <div class="gambar">
-            <img src="./../assets/contoh produk.png" alt="Produk">
+            <img src="./../assets/1.png" alt="Produk">
         </div>
         <a href="#about">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
@@ -69,10 +69,10 @@ a svg {
 .neon {
     /* background-color: white; */
     position: absolute;
-    width: 25%;
-    height: 50%;
-    right: 16.5%;
-    top: 27%;
+    width: 40%;
+    height: 75%;
+    right: 7%;
+    top: 15%;
     border-radius: 50%;
     border: white solid 5px;
     box-shadow: 0 0 20px white;
@@ -83,8 +83,8 @@ a svg {
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 50%;
-    top: 100px;
+    left: 45%;
+    top: 90px;
     border-radius: 50%;
     box-shadow: 0 0 20px gray;
 }
@@ -102,18 +102,29 @@ a svg {
 
 @media screen and (max-width:780px) {
     header{
-        padding: 50px;
+        padding: 10px;
         flex-direction: column-reverse;
     }
     .text h1{
-        font-size: 20px;
-        backdrop-filter: blur(5px);
+        font-size: 50px;
+        /* backdrop-filter: blur(5px); */
+        text-align: center;
+        /* rotate: ; */
+        transform-origin: 0 0;
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 42%;
+        left: 39%;
     }
     .text p{
         font-size: 10px;
-        backdrop-filter: blur(5px);
+        /* backdrop-filter: blur(5px); */
+        text-shadow: 0 0 10px white;
+        position: absolute;
+        left: 53%;
+        top: 25%;
     }
-    .right , .left , .neon{
+    .right , .left, .neon{
         display: none;
     }
     a svg{
@@ -121,15 +132,16 @@ a svg {
     }
     .gambar img{
         position: absolute;
-        right: 5%;
-        z-index: 0;
+        right: 30%;
+        /* left: 1%; */
+        z-index: 1;
         width: 90%;
-        bottom: 20%;
+        /* bottom: 0%; */
+        top: 10%;
     }
     .text{
-        z-index: 1;
+        z-index: 2;
         margin-top: 100px;
-        
     }
 }
 </style>
